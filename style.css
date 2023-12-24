@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@100&display=swap');
+
+
+* {
+    font-family: "Poppins", sans-serif;
+    /* padding: 0;
+    margin: 0; */
+    /* box-sizing: border-box; */
+}
+html body{
+    display:  grid;
+    height: 100%;
+    place-items: center;
+    background-color: rgba(31, 147, 219, 0.548)
+}
+.wrapper{
+    width: 450px;
+    background: #fff;
+    border-radius: 16px;
+}
+.wrapper .title{
+    line-height: 70px;
+   background: rgba(75, 202, 202, 0.874);
+   padding-left: 25px;
+   font-size: 25px;
+   font-weight: 600;
+   border-radius: 5px 5px 0 0;
+   color: white;
+}
+.wrapper form{
+    padding: 30px 20px 25px 20px ;
+    
+}
+.wrapper  .row{
+    height: 45px;
+    background: rgb(163, 35, 35);
+    margin-bottom: 15px;
+    position: relative;
+
+}
+.wrapper  .row input{
+    height: 100%;
+    width: 100%;
+    /* background: rgb(214, 112, 112); */
+    margin-bottom: 15px;
+    padding-left: 50px;
+    outline: none;
+    
+}
+.wrapper .row i{
+    position:absolute;
+    width: 40px;
+    height: 100%;
+    background: rgb(79, 147, 176);
+    border: 1px solid red;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+ .wrapper form .button input{ 
+    background: rgb(87, 224, 149);
+    padding-left: 12px;
+    border: none;
+    font-size: 18px;
+    color:white;
+    font-weight: 500;
+  
+    
+}
+.signup{
+    padding: 0 95px;
+}
+.signup a{
+    color: green;
+    text-decoration: none;
+}
+.signup a:hover{
+    color: rgb(194, 131, 58);
+}

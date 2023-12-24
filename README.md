@@ -1,4 +1,2 @@
 # HTML-CSS
-This is my first git repository
-<br>
-Author: Rishabh dubey
+This is a basic form page using html and css

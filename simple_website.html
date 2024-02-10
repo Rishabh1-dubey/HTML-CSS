@@ -1,0 +1,173 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple wevbsite </title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+
+        }
+
+        nav {
+            background:#1b1b1b;
+            position: fixed;
+            width: 100%;
+            z-index: 12;
+        }
+
+        .menu {
+            width: 100%;
+            height: 80px;
+            background: rgb(83, 56, 56);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+        }
+
+        .logo {
+            padding: 12px 53px;
+            font-size: 35px;
+
+        }
+
+        .logo a {
+            padding: 12px 53px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+
+        }
+
+        .nav ul {
+            display: inline-flex;
+
+        }
+
+        .nav ul li {
+            padding: 22px 20px;
+            margin: 12px 0;
+            list-style: none;
+        }
+
+        .nav ul li a {
+            padding: 8px 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: 700;
+            border-radius: 13px;
+            transition: all 0.5s ease;
+        }
+
+        .nav ul li a:hover {
+            color: white;
+            background: rgb(146, 116, 116);
+            /* transform: none; */
+            /* padding: 12px 20px; */
+            /* padding: 22px 40px ; */
+            border-radius: 15px;
+        }
+
+        .img {
+            background: url(dragonball\ super\ goku.jpg) no-repeat;
+            height: 100vh;
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            /* position: relative; */
+            /* top: 80;
+            position: fixed; */
+           
+        }
+
+        .img::before {
+            content: '';
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .center {
+            position: absolute;
+            top: 52%;
+            left: 50%;
+            width: 100%;
+            transform: translate(-50%, -56%);
+            /* background: red; */
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .center .title {
+            color: rgb(254, 245, 245);
+            font-size: 55px;
+            font-weight: 600;
+        }
+
+        .center .title_sub {
+            font-size: 55px;
+            color: white;
+            font-weight: 600;
+        }
+
+        .center button {
+
+            margin-top: 30px;
+        }
+
+        .btn {
+            height: 60px;
+            width: 200PX;
+            font-size: 20px;
+            font-weight: 600;
+            /* border: 2px solid red; */
+            margin: 0 22px;
+            padding: 12px 30px;
+            color: rgb(24, 22, 22);
+            border-radius: 10px;
+            background: rgb(190, 206, 190);
+            cursor: pointer;
+            border: none;
+        }
+      #btn-1{
+            background:none;
+            color: white;
+            border: 2px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="menu">
+            <div class="logo">
+                <a href="#">Coding lab</a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact US</a></li>
+                    <li><a href="">More</a></li>
+                    <li><a href="">Visit here</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="img"> </div>
+    <div class="center">
+        <div class="title">Create a Amazing website</div>
+        <div class="title_sub">Using HTML and CSS</div>
+        <button class="btn" id="btn-1">SUBMIT</button>
+        <button class="btn">LEARN MORE</button>
+    </div>
+</body>
+
+</html>
